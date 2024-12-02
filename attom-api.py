@@ -16,6 +16,7 @@ def get_property_estimate(address, api_key):
     
 if __name__ == "__main__":
     user_address = input("Enter the property address: ")
-    api_key = "32b1e86b638620bf2404521e6e9e1b19e5f"
+    api_key = "32b16f91d5a2123ffe12ca98f248bce059a"
     estimate = get_property_estimate(user_address, api_key)
     print(f"The estimate value of the property at {user_address} is: {estimate}")
+    print("test")
