@@ -35,6 +35,6 @@ if __name__ == "__main__":
         print("Error: Please enter the address in the correct format (123 Main St, New York, NY)")
         exit()
 
-    api_key = "16f91d5a2123ffe12ca98f248bce059a"
+    api_key = ""
     avm_snapshot = get_avm_snapshot(address1, address2, api_key)
     print(f"The estimate value of the property at {full_address} is: {avm_snapshot}")
